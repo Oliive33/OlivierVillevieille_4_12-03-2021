@@ -12,6 +12,9 @@ a, button {
     text-decoration: none;
     
 }
+.home_link, .contact_link{
+    margin-top: 3rem;
+}
 
 .home_link:hover, .contact_link:hover{
     border: 1px #d0d1d1;
@@ -48,7 +51,7 @@ a, button {
 }
 
 .bloc-lg {
-    padding: 80px 60px 80px 60px;
+    padding: 30px 80px 80px 80px;
 }
 
 .bloc-md {
@@ -56,7 +59,7 @@ a, button {
 }
 
 .bloc-sm {
-    padding: 20px 50px;
+    padding: 10px 20px;
 }
 
 .bg-center,
@@ -319,7 +322,6 @@ a, button {
 }
 
 .navbar .nav {
-    padding-bottom: 3rem;
     margin-right: 6rem;
     list-style: none;
     float: right;
@@ -328,12 +330,19 @@ a, button {
 
 .nav > li {
     float: left;
+    padding-bottom: 3rem;
     margin-top: 4px;
     font-size: 16px;
 }
+
 .lien_accueil{
     margin-right: 2rem;
 }
+
+.lien_accueil .lien_contact{
+    margin: 1.5rem 3rem;
+}
+
 .navbar-nav .open .dropdown-menu > li > a {
     text-align: inherit;
 }
@@ -444,6 +453,7 @@ nav .caret {
 .mg-md {
     margin-top: 10px;
     margin-bottom: 20px;
+    font-weight: bold;
 }
 
 .mg-lg {
@@ -693,7 +703,6 @@ text-align: center;
 .tight-width-whitespace {
     max-width: 600px;
     text-align: center;
-    font-size: 14px;
     margin: auto;
 }
 .h1 {
@@ -711,7 +720,8 @@ text-align: center;
 }
 .social {
     max-width: 400px;
-    margin: auto auto auto auto;
+    margin: 0 auto;
+    padding-top: 1rem;
 }
 h2 {
     font-size: 22px;
@@ -746,6 +756,16 @@ h4 {
 
 .white {
     color: #FFFFFF!important;
+    font-weight: bolder;
+}
+.text-footer > p{
+    line-height: 1rem;
+    font-weight: bold;
+}
+.text-footer-accueil {
+    font-weight: bold;
+    text-align: center;
+    margin: 1rem 0;
 }
 
 .portfolio-thumb {
@@ -762,7 +782,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgba(185, 171, 139, 0.7);
     padding: 40px 40px 40px 40px;
 }
 
@@ -1039,13 +1059,17 @@ h4 {
 
 @media (max-width: 400px) {
     .bloc {
-        padding-left: 0;
-        padding-right: 0;
+        /* padding-left: 0;
+        padding-right: 0; */
+        padding: 0;
     }
+   
 }
 
 @media (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
     }
+  
 }
+
