@@ -69,6 +69,16 @@ function animateWhenVisible() {
         inViewCheck(), scrollToTopView(), stickyNavToggle()
     })
 }
+// const btnarrow = document.querySelector('btnarrow');
+
+// btnarrow.addEventListener('click', () => {
+
+//     window.scrollTo({
+//         top: 0,
+//         left: 0,
+//         behavior: "smooth"
+//     })
+// })
 
 function setUpDropdownSubs() {
     $("ul.dropdown-menu [data-toggle=dropdown]").on("click", function(t) {
