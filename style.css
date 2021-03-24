@@ -387,11 +387,9 @@ h3 {
     background-color: #F3976C;
 }
 .tc-white {
-    color: #ffffff;
+    color: rgb(238 166 132 / 90%);
+    font-size: xx-large;
 }
-/* .tc-white:hover{
-    color: #eea684;
-} */
 .tc-white2{
     color: #FFFFFF;
     opacity: 0.8;
@@ -438,6 +436,11 @@ h3 {
 .tangerine {
     color: #eea684;
 }
+.tangerine:hover{
+    text-decoration: none;
+
+}
+
 .bg-banniere {
     background-image: url("img/la-chouette-agence-banniere.jpg");
 }
@@ -591,9 +594,7 @@ h3 {
     .nav-center.mini-nav .navbar-toggle {
         float: right;
         margin: 10px auto 0;
-    }
-    
-    
+    }   
 }    
 @media (max-width: 991px) {
     .b-parallax {
@@ -607,10 +608,6 @@ h3 {
         display: block;
         width: 100%;
     }
-    /* .flex-form {
-        margin: 0;
-        width: 100%;
-    } */
     .tight-width-whitespace {
         max-width: 100%;
     }
